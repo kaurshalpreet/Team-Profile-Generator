@@ -25,15 +25,15 @@ You can also find a walkthrough video that demonstrates the functionality of the
 
 ## Installation
 
-npm install <br>
-npm jest <br>
+npm init <br>
+npm i -D jest <br>
 npm install inquirer <br>
 
 ---
 
 ## Usage
 
-Your app will run as a Node CLI to gather information about each employee. You need to open app.js in integrated terminal and type "node app.js" and prompts to enter your input will appear. The user can input any number of team members, and they may be mix of engineers and interns. <br>
+Your app will run as a Node CLI to gather information about each employee. You need to open app.js in integrated terminal and type "node app.js" and prompts to enter your input will appear. The user enters the team member's name, selects the member's role from a list (options include "Engineer," "Intern," and "Manager), enters the member's ID, enters the member's email address, and then must enter another piece of information that will differ depending on what role was selected. If "Engineer" was selected, the app asks the user for the team member's GitHub username. If "Intern" was selected, the member's school name is requested and if "Manager" was chosen, the user is prompted for the team member's phone number. The user can input any number of team members, and they may be mix of engineers and interns. <br>
 
 A screenshot showing the user input is shown below.
 
@@ -67,7 +67,7 @@ A screenshot of output HTML webpage is shown below.
 
 ## Test
 
-Jest is used to perform tests on all the class constructors to ensure that they behave as expected.
+Jest is used to perform tests on all the class constructors to ensure that they behave as expected. All test passed by running "npm test".
 
 ---
 
